@@ -1,0 +1,21 @@
+body{
+    width: 100vh;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    width: 50vh;
+    height: 100vh;
+    background-color: blue;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+form{
+    width: 50vh;
+    height: 100vh;
+}
