@@ -119,6 +119,22 @@
         padding-left: 5px;
     }
     
+    button {
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #2E9CCA;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+    
+    button a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
     @media screen and (max-width: 1250px) {
         .image-sections {
             flex-direction: column;
