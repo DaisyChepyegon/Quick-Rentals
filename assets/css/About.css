@@ -1,0 +1,43 @@
+.icon img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 100px;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.icons{
+    background-color: #2e9cca;
+    color: white;
+}
+.icons h3{
+    text-align: center;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.images img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius:50% ;
+
+}
+.galary h2{
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: xx-large;
+}
