@@ -1,19 +1,47 @@
 body{
-    width: 70vh;
-    height: 70vh;
+    width: 100vh;
+    height: 100vh;
+    align-items: center;
     background-color: #f6f5f5;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: 70vh;
+}
+header img{
+    width: 100px;
+    height: 80px;
+}
+nav{
+    justify-content: right;
+    padding-right: 40px;
+}
+nav li{
+    display:inline;
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
 }
 .box{
     display: flex;
     flex-direction: row;
     width: 100vh;
-    height: 700px;
+    height: 900px;
     justify-content: space-between;
     margin-top: 30px;
 }
 .contact{
     width: 50vh;
-    height:500px ;
+    height:800px ;
     display: grid;
     grid-template-columns: auto auto;
    
@@ -34,7 +62,7 @@ img{
 }
 .form{
     width: 50vh;
-    height: 700px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     background-color: #2e9cca;
@@ -48,8 +76,8 @@ img{
     margin-bottom: 20px;
     width: 150px;
     align-items: center;
-    margin-top: 170px;
-    margin-left: 120px;
+    margin-top: 130px;
+    margin-left: 90px;
     padding: 15px 25px;
     color: black;
     border: none;
@@ -67,3 +95,17 @@ img{
 #comment{
     height: 100px;
 }
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none;
+    height:600px;
+    width:60vh;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+}
+
