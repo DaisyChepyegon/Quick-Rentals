@@ -1,21 +1,69 @@
 body{
-    width: 100vh;
-    height: 100vh;
+    width: 70vh;
+    height: 70vh;
+    background-color: #f6f5f5;
 }
 .box{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100vh;
+    height: 700px;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 .contact{
     width: 50vh;
-    height: 100vh;
-    background-color: blue;
+    height:500px ;
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    
 }
 img{
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
 }
-form{
+.details{
+    height:150px;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    
+}
+.form{
     width: 50vh;
-    height: 100vh;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2e9cca;
+    
+}
+.form h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.form button{
+    margin-bottom: 20px;
+    width: 150px;
+    align-items: center;
+    margin-top: 170px;
+    margin-left: 120px;
+    padding: 15px 25px;
+    color: black;
+    border: none;
+    background-color: #235dda;
+    font-size: 20px;
+}
+.frm{
+    display: block;
+    padding: 15px 25px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+#comment{
+    height: 100px;
 }
