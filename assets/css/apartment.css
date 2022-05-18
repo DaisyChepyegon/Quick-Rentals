@@ -1,105 +1,133 @@
-body {
-    font-family: Verdana, sans-serif;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-span {
-    color: orangered;
-}
-
-.apartment-sections {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-
-.slideshow-container {
-    position: relative;
-    margin: auto;
-    align-items: center;
-}
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: 22px;
-    padding: 16px;
-    color: white;
-    font-weight: 900;
-    font-size: 18px;
-    transition: 0.6s ease;
-    user-select: none;
-    border-style: double;
-    background-color: #f2f2f2;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-#arrow {
-    color: orangered;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.text {
-    color: #f2f2f2;
-    font-size: 20px;
-    padding-bottom: 80px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-.image-sections {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-div #houses {
-    width: 400px;
-    height: 300px;
-}
+    body {
+        font-family: Verdana, sans-serif;
+    }
+    
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    span {
+        color: orangered;
+    }
+    
+    .apartment-sections {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+    .slideshow-container {
+        position: relative;
+        margin: auto;
+        align-items: center;
+    }
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: 22px;
+        padding: 16px;
+        color: white;
+        font-weight: 900;
+        font-size: 18px;
+        transition: 0.6s ease;
+        user-select: none;
+        border-style: double;
+        background-color: #f2f2f2;
+    }
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    #arrow {
+        color: orangered;
+    }
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .text {
+        color: #f2f2f2;
+        font-size: 20px;
+        padding-bottom: 80px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: blue;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.6s ease;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+    
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    .image-sections {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        border-color: #717171;
+        padding-top: 20px;
+    }
+    
+    div #houses {
+        width: 400px;
+        height: 300px;
+    }
+    
+    .houses-container {
+        margin-right: 5px;
+        border-color: #AAABB8;
+        background-color: #AAABB8;
+        padding: 2px;
+        box-shadow: 5px 5px 5px #717171;
+        border-radius: 7px;
+    }
+    
+    div p {
+        padding-left: 5px;
+    }
+    
+    @media screen and (max-width: 1250px) {
+        .image-sections {
+            flex-direction: column;
+            justify-content: center;
+        }
+        .houses-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+    }
