@@ -132,7 +132,7 @@ img{
     display: flex;
     flex-direction: column;
 }
-.section3{
+.section{
     height: 155px;
     background-color: #555555;
     display: flex;
@@ -143,7 +143,7 @@ img{
     
   
   }
-  #footer{
+  #end{
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -154,7 +154,7 @@ img{
     margin-bottom: 45px;
     margin-right: 0px;
   }
-  .four{
+  .iconss{
     
     float: left;
     height: 100px;
@@ -164,7 +164,7 @@ img{
     justify-content: center;
     
   }
-  .four>a{
+  .iconss>a{
     text-decoration: none;
     margin-left: 40px;
     color: #ffffff;
@@ -172,25 +172,25 @@ img{
     font-size: 30px;
     font-weight: 600;
   }
-  .four>img{
+  .iconss>img{
     padding-top: 10px;
     height: 120px;
     width: 120px;
     border: solid transparent;
     border-radius: 60px;
   }
-  .five{
+  .info{
     float: right;
     width: 60%;
     height: 100px;
     
   }
-  .five>p{
+  .info>p{
     margin-left: 450px;
     padding-top: 30px;
     color: #ffffff;
   }
-  .last{
+  .finish{
     height: 50px;
     display: flex;
     flex-direction: row-reverse;
@@ -203,7 +203,7 @@ img{
     
   
   }
-  .last>.last1>p{
+  .finish>.finish1>p{
     margin-right: 20px;
     margin-left: 20px;
   }
