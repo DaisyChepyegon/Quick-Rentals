@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     padding: 0px 70px;
     background-color: #f6f5f5;
@@ -55,44 +56,56 @@ body{
     padding-left: 10px;
     padding-right: 10px;
   }
-.icon img{
+
+.icon img {
+
     width: 50px;
     height: 50px;
     margin: 15px;
     margin-bottom: 30px;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 70px 250px;
-    
+    margin: 20px 100px;
+
 }
-.icon{
+
+.icon {
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
-.icons{
+
+.icons {
     background-color: #2e9cca;
     color: white;
 }
-.icons h3{
+
+.icons h3 {
     text-align: center;
 }
-.images{
+
+.images {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.images img{
+
+.images img {
     width: 150px;
     height: 150px;
+
     margin:10px;
-    border-radius:50% ;
+    border-radius:50%;
+    margin: 20px;
+    border-radius: 50%;
 
 }
-.galary h2{
+
+.galary h2 {
     align-items: center;
     text-align: center;
     margin-left: 100px;
