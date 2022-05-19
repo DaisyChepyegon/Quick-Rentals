@@ -1,7 +1,8 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #d3d3d3;
+    background-color: #F6F5F5;
+    font-family: 'Roboto';
 }
 
 
@@ -9,8 +10,10 @@ body {
 
 .locationMainContainer {
     display: flex;
-    border-color: black;
     margin: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #717171;
+    border-radius: 10px;
 }
 
 
@@ -21,6 +24,18 @@ body {
     justify-content: space-between;
     background-color: white;
     padding: 20px;
+    /* width: 50%; */
+}
+
+.locationMainContainer>.locationContent>.content_side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locationMainContainer>.locationContent>.content_side>.right_content_side,
+.left_content_side {
+    width: 50%;
+    padding: 20px;
 }
 
 
@@ -30,6 +45,27 @@ body {
     width: 60vh;
 }
 
+.start {
+    background-color: #2e9cca;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.left_content_side>h3,
+.right_content_side>h3 {
+    color: #2e9cca;
+}
+
+
+/* FOR THE NAV */
+
 
 /* for responsiveness */
 
@@ -38,6 +74,13 @@ body {
         flex-direction: column;
     }
     .locationMainContainer>.locationImage>img {
+        width: 100%;
+    }
+    .locationMainContainer>.locationContent>.content_side {
+        flex-direction: column;
+    }
+    .locationMainContainer>.locationContent>.content_side>.right_content_side,
+    .left_content_side {
         width: 100%;
     }
 }
