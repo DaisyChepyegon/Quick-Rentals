@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+</head>
+<body>
+   
+    <nav>
+        <div class="navright">
+            <ul>
+                <li> <a href="index.html"> Home</a> </li>
+                <li> <a href="./assets/pages/locations.html"> Location</a> </li>
+                <li> <a href="/assets/pages/About.html"> About Us</a> </li>
+                <li> <a href="#"> Contact Us</a> </li>
+            </ul>
+
+        </div>
+        <div class="navleft">
+            <img src="/assets/images/daisy/Transparent.png" alt="logo image">
+        </div>
+
+
+    </nav> 
+
+    <div class="box">
+        <div class="display">
+        <div class="contact">
+            <div class="details">
+                <img src="/assets/images/daisy/pin.png" alt="">
+                <h5>Our Main Office</h5>
+                <h6>254,Kanairo</h6>
+            </div>
+            <div class="details">
+                <img src="/assets/images/daisy/telephone.png" alt="">
+                <h5>Phone Number</h5>
+                <h6>+254712345678</h6>
+            </div>
+            <div class="details">
+                <img src="/assets/images/daisy/fax.png" alt="">
+                <h5>Fax</h5>
+                <h6>1-234-567-8900</h6>
+            </div>
+            <div class="details">
+                <img src="/assets/images/daisy/email.png" alt="">
+                <h5>Email</h5>
+                <h6>info@quickrentals.com</h6>
+            </div>
+        </div>
+            <div class="map">
+                    <div class="gmap_canvas">
+                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=prestige%20plaza&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+            </div>
+
+        </div>
+
+        
+        <div class="form">
+            <form action="#"></form>
+            <h2>Contact us</h2>
+            <input class="frm" type="text" placeholder="enter your name" id="#">
+            <input  class="frm" type="email" placeholder="enter valid email" id="#">
+            <input class="frm" type="text" placeholder="comments" id="comment">
+            <button>Submit</button>
+        </div>
+        
+    </div>
+    <section class="section">
+        <div id="end">
+            <div class="iconss">
+                <a href="#" class="fa fa-home"></a>
+                <a href="#" class="fa fa-facebook"> </a>
+                <a href="#" class="fa fa-twitter"> </a>
+                <a href="#" class="fa fa-instagram"> </a>
+            </div>
+            <div class="info">
+                <p>Contact Us <br> <br> :0715900478 <br> :info@quickrentals.com</p>
+            </div>
+        </div>
+    </section>
+    <div class="finish">
+        <p class="finish1"> Designed by: www.quikrentals.com </p>
+        <p class="finish2">
+            2022 All rights reserved
+        </p>
+    </div>
+
+</body>
+</html>
