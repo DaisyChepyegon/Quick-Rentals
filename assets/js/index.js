@@ -1,10 +1,11 @@
-// function myFunction() {
-//   var x = document.getElementById("navbar");
-//   if (x.className === "navbar") {
-//     x.className += " navright";
-//   } else {
-//     x.className = "navbar";
-//   }
-// }
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarRight = document.getElementsByClassName('navright')[0]
+
+toggleButton.addEventListener('click', () =>{
+  navbarRight.classList.toggle('active')
+}
+)
+
+
 
 
