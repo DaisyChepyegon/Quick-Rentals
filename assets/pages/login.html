@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/login.css" />
+</head>
+
+<body>
+    <div class="form">
+        <div class="form-box">
+            <div class="button-area">
+                <div id="click"></div>
+                <button type="button" class="move-across" onclick="login()"> <br>
+            Log In
+          </button>
+                <button type="button" class="move-across" onclick="register()">
+            Register
+          </button>
+            </div>
+            <div class="icons">
+                <img src="../images/login/fb.jpg" />
+                <img src="../images/login/tw.jpg" />
+                <img src="../images/login/gp.jpg" />
+            </div>
+            ​
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter your email" required />
+                <input type="text" class="input-field" placeholder="Enter Password" required />
+                <input type="checkbox" class="thebox" />
+                <span>Remember Password</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="Username" class="input-field" placeholder="Enter your username" required />
+                <input type="Email" class="input-field" placeholder="Email " required />
+                <input type="text" class="input-field" placeholder="Enter your spouse name" required />
+                <input type="text" class="input-field" placeholder="Enter Password" required />
+                <input type="checkbox" class="thebox" />
+                <span>I agree to the terms & condition</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+    ​
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
