@@ -15,12 +15,12 @@
     justify-content: space-between;
 }
 
-.main_footer>.first_part>.left {
+.main_footer>.first_part>.f_left {
     display: flex;
     align-items: center;
 }
 
-.main_footer>.first_part>.left>img {
+.main_footer>.first_part>.f_left>img {
     padding: 0.5cm;
 }
 
@@ -32,7 +32,7 @@
     .second_part {
         flex-direction: column;
     }
-    .main_footer>.first_part>.left {
+    .main_footer>.first_part>.f_left {
         flex-direction: column;
         align-items: flex-start;
     }
