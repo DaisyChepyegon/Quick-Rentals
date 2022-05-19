@@ -310,9 +310,26 @@ a:visited {
   margin-left: 20px;
 }
 
-/*
-@media screen and (max-width: 1250px) {
-    .photos {
-        flex-direction: column;
-    }
+
+@media screen and (max-width:700px) {
+  
+  .navleft>img{
+    height: 50px;
+    width: 50px;
+
+  }
+  .navright{
+    height: 60px;
+
+  }
+  .navleft{
+    height: 60px;
+  }
+  .navbar{
+    height: 60px;
+  }
+  .navright>a{
+    font-size: 10px;
+    margin-left: 2px;
+  }
 }
