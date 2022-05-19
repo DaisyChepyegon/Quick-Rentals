@@ -1,37 +1,42 @@
-body{
+body {
     width: 100vh;
     height: 100vh;
     align-items: center;
     background-color: #f6f5f5;
 }
-header{
+
+header {
     display: flex;
     flex-direction: row;
     color: black;
     width: 70vh;
 }
-header img{
+
+header img {
     width: 100px;
     height: 80px;
 }
-nav{
+
+nav {
     justify-content: right;
     padding-right: 40px;
 }
-nav li{
-    display:inline;
+
+nav li {
+    display: inline;
     margin: 0 20px;
     text-decoration: none;
     color: black;
 }
+
 nav ul {
-    list-style:none;
+    list-style: none;
     display: flex;
     flex-direction: row;
     text-decoration: none;
-
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: row;
     width: 100vh;
@@ -39,40 +44,42 @@ nav ul {
     justify-content: space-between;
     margin-top: 30px;
 }
-.contact{
+
+.contact {
     width: 50vh;
-    height:800px ;
+    height: 800px;
     display: grid;
     grid-template-columns: auto auto;
-   
-    
 }
-img{
+
+img {
     width: 50px;
     height: 50px;
 }
-.details{
-    height:150px;
+
+.details {
+    height: 150px;
     width: 150px;
     align-items: center;
     text-align: center;
     padding: 5px;
     background-color: white;
-    
 }
-.form{
+
+.form {
     width: 50vh;
     height: 600px;
     display: flex;
     flex-direction: column;
     background-color: #2e9cca;
-    
 }
-.form h2{
+
+.form h2 {
     text-align: center;
     font-size: xx-large;
 }
-.form button{
+
+.form button {
     margin-bottom: 20px;
     width: 150px;
     align-items: center;
@@ -84,28 +91,29 @@ img{
     background-color: #235dda;
     font-size: 20px;
 }
-.frm{
+
+.frm {
     display: block;
     padding: 15px 25px;
     margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px;
-    
 }
-#comment{
+
+#comment {
     height: 100px;
 }
 
 .gmap_canvas {
-    overflow:hidden;
-    background:none;
-    height:600px;
-    width:60vh;
+    overflow: hidden;
+    background: none;
+    height: 600px;
+    width: 60vh;
     margin-top: 20px;
     margin-left: 10px;
 }
-.display{
+
+.display {
     display: flex;
     flex-direction: column;
 }
-
