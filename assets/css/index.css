@@ -56,8 +56,12 @@ nav {
 }
 
 .section1 {
+<<<<<<< HEAD
     /* background: url("./assets/images/homepage_imgs/background.jpg") no-repeat center fixed; */
     background: url("../images/homepage_imgs/background.jpg") no-repeat center fixed;
+=======
+    background: url("./assets/images/homepage_imgs/background.jpg") no-repeat center fixed;
+>>>>>>> 3473087a33a75d4f9fd31a925f2e2f4ffd30ba4f
     background-size: cover;
     height: 700px;
     width: 100%;
