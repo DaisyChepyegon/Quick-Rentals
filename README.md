@@ -2,7 +2,7 @@
 This is a website project meant to quicken the time used to look for apartments to rent.
 
 ## Top Page screenshot
-![image](./assets/images/README.md%20images/quick%20rentals-top.png)
+![image](./assets/images/README.md%20images/quick%20rentals-top.png%20(copy).png)
 
 ## Apartment Page screenshot
 ![image](./assets/images/README.md%20images/apartments.png)
