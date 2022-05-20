@@ -22,6 +22,10 @@ Quick Rentals is a group/team project based on creation of a website which easen
 ## Live-Link
 http://daisychepyegon.github.io/Quick-Rentals/
 
+## Figma-Link
+https://www.figma.com/file/3LQnmzHhaoabYHxuZCqDxn/Untitled?node-id=1%3A2
+
+
 ## Technology-Used
 HTML tags and elements -which was used to develope the structure of the pages. 
 CSS styling-which was used to style the User Interface. 
@@ -42,6 +46,6 @@ By : Auma Amwayi,Jackson Ohallo,Daisy Chepyegon,Zacharia Kimani, Kaburu Michael 
 
 ## Support-And-Contact-Details
 Email address: michael.kaburu@student.moringaschool.com
-Slack:Michael Kaburu ,Zacharia Kimani, Daisy Chepyegon,Jackson Ohallo ,Auma Diana.
+Slack:Michael Kaburu ,Zacharia Mwangi, Daisy Chepyegon,Jackson Ohallo ,Auma Diana.
 Github :Kaburu12 ,
 
